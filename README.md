@@ -1,4 +1,4 @@
-# grav-docker-scaleway
+# Grav-docker-scaleway
 Dockerfile for scaleway ARM based servers.
 
 ## Read the Dockerfile before building!
@@ -11,5 +11,10 @@ Just comment out `FROM armbuild/phusion-baseimage` and uncomment `#FROM phusion/
 # build for x64
 FROM phusion/baseimage:0.9.15
 ```
+
+### TODO:
+- Get mailing to work
+- Clean up unused task
+- Write a nice README
 
 Credits go mostly to ahumaro: https://github.com/ahumaro/Grav-PHP-Nginx
